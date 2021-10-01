@@ -1,0 +1,31 @@
+@media (max-width:930px){
+        
+    .gradiente{
+        background: linear-gradient(#fefefe 0%,#1d71b8 104%,#fefefe 100%);
+        padding: 2em 0 2em;
+        margin-top: 20px;
+        clear: both; 
+    }
+    .video iframe{
+        width: 95%;
+        height: 300px;
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%); 
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media (min-width:930px){
+        
+    .gradiente{
+        background: linear-gradient(#fefefe 0%,#1d71b8 104%,#fefefe 100%);
+        padding: 2em 0 2em;
+        margin-top: 20px;
+        clear: both; 
+    }
+    .video{
+        text-align: center;
+    }
+    .video iframe{
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%); 
+    }
+}

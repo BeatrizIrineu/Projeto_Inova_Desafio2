@@ -1,0 +1,29 @@
+@media (max-width:930px){
+    .box-arquitetura{
+        display: flex;
+        flex-direction: column-reverse;
+    }     
+}
+
+@media (min-width:930px){
+        
+    .box-arquitetura{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-arquitetura-coluna-esquerda-imagem{
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .box-arquitetura-coluna-esquerda-texto{
+        max-width: 430px;
+    }
+    .box-arquitetura-coluna-direita{
+        max-height: 180px;
+        max-width: 430px; 
+    }
+    .box-arquitetura-coluna-direita-imagem{
+        margin: 0 auto;
+        max-width: 350px;
+    }
+}

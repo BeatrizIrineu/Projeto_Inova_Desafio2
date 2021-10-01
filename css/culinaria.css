@@ -1,0 +1,15 @@
+
+@media (max-width:930px){
+    .box-culinaria{
+        text-align: center;
+        
+    }
+}
+
+@media (min-width:930px){
+    .box-culinaria{
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,33 @@
+@media (max-width:930px){
+    
+    .box-artesanato{
+        align-items: center;
+        display: flex;
+        flex-direction:column; 
+        
+    }
+    .box-artesanatato-espacamento{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 310px;
+    } 
+    .box-artesanatato-espacamento .legenda-imagem{
+        max-width: 200px;
+        font-size: 9px;
+    }
+}
+
+@media (min-width:930px){
+        
+    .box-artesanato{
+        align-items: center;
+        display: flex;
+        flex-direction:column; 
+        
+    }
+    .box-artesanatato-espacamento{
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 900px;
+    }   
+}

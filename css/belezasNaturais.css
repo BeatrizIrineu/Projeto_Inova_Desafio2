@@ -1,0 +1,42 @@
+@media (max-width:930px){
+    .box-belezas-naturais{
+       
+    }
+    .image-belezas-naturais{
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%); 
+        height: auto;
+        margin: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box-legenda-belezas-naturais{
+        display: none;
+        
+    }
+    .legenda-belezas-naturais{
+        color: #707070; 
+        font-size: 14px; 
+    }
+}
+
+@media (min-width:930px){
+        
+    .box-belezas-naturais{
+        display: flex;
+        margin-top:10px;
+    }
+    .image-belezas-naturais{
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%); 
+        height: 260px;
+        margin: auto;
+        max-width: 300px;
+    }
+    .box-legenda-belezas-naturais{
+        display: flex;
+        justify-content: space-around;
+    }
+    .legenda-belezas-naturais{
+        color: #707070; 
+        font-size: 14px; 
+    }
+}

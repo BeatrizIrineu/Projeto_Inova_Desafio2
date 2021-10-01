@@ -1,0 +1,182 @@
+
+@media (max-width:930px){
+    .caixa-conteudo{
+        background-color: #fefefe;
+        display: flex;
+        flex-direction: column; 
+        font-family: 'Dosis', sans-serif;
+        margin: 0 auto;
+        width: 100vw;
+        padding: 0 30px 0 30px;  
+        
+    } 
+    .titulo{ 
+        font-size: 30px;   
+        margin-block-start: 100px;
+    }
+    .titulo-legenda{
+        margin: 10px 0 15px 0;
+        font-size: 14px;   
+        color: #707070;
+    }
+    .link{
+        color:rgb(210, 117, 30);
+        text-decoration: none;
+    }
+    .link:hover{
+        color:#1d71b8;
+    }
+    .slide-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .slide-box-image{
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%);
+        height: 190px;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 300px;
+    }
+    #image{
+        width: 100%;
+        height: auto;
+    }
+    .slide-box-legenda{
+        margin: 1rem 0 1rem 0; 
+        text-align: center;
+        font-size: 14px;   
+        color: #707070;
+    }
+    .trecho-em-destaque{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .trecho-em-destaque-texto{
+        font-style: italic;
+        line-height:1;
+    }
+    main p{
+        font-size: 18px; 
+        letter-spacing:1px;
+        line-height: 1.2; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .titulo-secao{
+        color: #1b1b1b;
+        font-size: 30px;
+        margin: 15px 0 15px 0;
+    }
+    .legenda-imagem{
+        text-align: center;
+        max-width: 350px;
+        font-size: 14px;   
+        color: #707070;
+    }
+    .image-box{
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%);
+        height: 260px; 
+        margin: 1rem auto;
+        max-width: 350px;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+    .legenda-alinhado{
+        color: #707070; 
+        font-size: 14px; 
+        text-align: center;
+        margin: 1rem auto;
+    }
+}
+
+@media (min-width:930px){   
+    .caixa-conteudo{
+        background-color: #fefefe;
+        font-family: 'Dosis', sans-serif;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0 30px 0 30px;   
+    } 
+    .titulo{ 
+        font-size: 30px;   
+        margin-block-start: 100px;
+    }
+    .titulo-legenda{
+        margin: 10px 0 15px 0;
+        font-size: 14px;   
+        color: #707070;
+    }
+    .link{
+        color:rgb(210, 117, 30);
+        text-decoration: none;
+    }
+    .link:hover{
+        color:#1d71b8;
+    }
+    .slide-box{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .slide-box-image{
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%);
+        height: 350px;
+        margin: 0 auto;
+        order: -1;
+        overflow: hidden;
+        width: 500px;
+    }
+    .slide-box-legenda{
+        float:left;
+    
+        margin-left: 80px; 
+        margin-right: auto;
+        margin-top: 1rem; 
+        font-size: 14px;   
+        color: #707070;
+    }
+    .trecho-em-destaque{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .trecho-em-destaque-texto{
+        font-style: italic;
+        line-height:1;
+    }
+    main p{
+        font-size: 18px; 
+        letter-spacing:1px;
+        line-height: 1.2; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .titulo-secao{
+        color: #1b1b1b;
+        font-size: 30px;
+        margin: 15px 0 15px 0;
+    }
+    .legenda-imagem{
+        text-align: center;
+        max-width: 350px;
+        font-size: 14px;   
+        color: #707070;
+    }
+    .image-box{
+        box-shadow: 0 0 1em rgb(0 0 0 / 90%);
+        height: 260px; 
+        margin: 1rem auto;
+        max-width: 350px;
+        overflow: hidden;
+    }
+    .legenda-alinhado{
+        color: #707070; 
+        font-size: 14px; 
+        text-align: center;
+        margin: 1rem auto;
+    }
+}
